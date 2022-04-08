@@ -1,0 +1,5 @@
+<p *ngIf="product && product.price < 700">
+  <button type="button" (click)="notify.emit()">
+    Buy Now at Discounted Price
+  </button>
+</p>
